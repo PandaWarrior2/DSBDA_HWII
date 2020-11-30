@@ -1,0 +1,23 @@
+kafka:
+  topic: hw2
+  producer-id: app
+  consumer-group-id: spark-streamer
+  bootstrap-servers: 172.18.0.1:32770
+cassandra:
+  connection-host: 127.0.0.1
+  port: 9042
+  key-space: linux_logs
+  table: logs
+spark:
+  streaming-duration: 10
+  master: local[2]
+  executor-memory: 1g
+  driver-memory: 1g
+  driver-max-result-size: 1g
+  app-name: ${spring.application.name}
+
+spring:
+  application:
+    name: kafka-cassandra-spring
+server:
+  port: 8082

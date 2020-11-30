@@ -1,0 +1,12 @@
+cassandra:
+  connection-host: localhost
+  port: 9142
+  key-space: linux_logs
+  table: logs
+spark:
+  streaming-duration: 1
+  master: local[2]
+  executor-memory: 1g
+  driver-memory: 1g
+  driver-max-result-size: 1g
+  app-name: kafka-cassandra-spring-test

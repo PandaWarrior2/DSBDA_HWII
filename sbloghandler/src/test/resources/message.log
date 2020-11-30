@@ -1,0 +1,12 @@
+Nov 20 00:00:00 localhost1 root1[11111]: dummy message1 emerg
+Nov 20 00:00:00 localhost1 root2[11111]: dummy message2 alert
+Nov 20 01:00:00 localhost2 root3[11111]: dummy message1 alert
+Nov 20 01:00:00 localhost2 root4[11111]: dummy message2 alert
+Nov 20 02:00:00 localhost3 root5[11111]: dummy message1 crit
+Nov 20 02:00:00 localhost3 root6[11111]: dummy message2 error
+Nov 20 02:00:00 localhost4 root6[11111]: dummy message1 crit
+Nov 20 03:00:00 localhost4 root5[11111]: dummy message2 error
+Nov 20 04:00:00 localhost5 root4[11111]: dummy message1 warning
+Nov 20 04:00:00 localhost5 root3[11111]: dummy message2 notice
+Nov 20 04:00:00 localhost6 root2[11111]: dummy message1 notice
+Nov 20 05:00:00 localhost6 root1[11111]: dummy message2 info
